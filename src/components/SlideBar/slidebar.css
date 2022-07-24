@@ -1,0 +1,14 @@
+.slidebar{
+    background-color: #f88f44;
+    height: 100vh;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+li{
+    font-size: 20px;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}

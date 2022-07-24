@@ -36,8 +36,8 @@
     transform: rotate(360deg);
   }
 }
-.main {
-  background-color: #1642b16b;
-  height: 100vh;
-  padding: 60px;
+
+.nav{
+  display: flex;
+  background: #675BF1;
 }

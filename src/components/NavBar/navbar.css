@@ -1,0 +1,16 @@
+.nav{
+    background-color: #657BF1;
+    padding: 10px 0;
+}
+.btn-boder, .input-boder{
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: inherit;
+    color: #ffffff;
+    font-weight: 700;
+}
+.input-boder{
+    margin-right: 10px;
+    outline: none;
+}
