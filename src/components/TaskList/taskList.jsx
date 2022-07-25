@@ -1,5 +1,5 @@
 import React from 'react';
-import Taskitem from "../TaskItem/taskItem"
+import Taskitem from "../TaskItem/Taskitem"
 import "./tasklist.css"
 Tasklist.propTypes = {
 

@@ -1,23 +1,23 @@
 
 import './App.css';
-import Tasklist from './components/TaskList/taskList';
-import NavBar from './components/NavBar/navBar';
-import SlideBar from './components/SlideBar/slideBar';
+import TaskList from './components/TaskList/TaskList';
+import NavBar from './components/NavBar/NavBar';
+import SlideBar from './components/SlideBar/SlideBar';
 function App() {
   return (
-    <div class=" main">
+    <div className='main'>
     <div className='nav'>
       <div className='container'> 
         <NavBar />
       </div>
     </div>
-      <div class="container">
+      <div className='container'>
         <div className='row'>
           <div className='col-2'>
           <SlideBar/>
           </div>
           <div className='col-10'>
-            <Tasklist />
+            <TaskList />
           </div>
         </div>
       </div>

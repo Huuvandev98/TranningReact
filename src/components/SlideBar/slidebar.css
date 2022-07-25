@@ -4,11 +4,16 @@
 }
 ul{
     list-style: none;
-    padding: 0;
+    padding-left: 0 !important;
+    margin: 0;
     text-align: center;
 }
 li{
+    padding:5px 0;
     font-size: 20px;
     color: #ffffff;
     border-bottom: 2px solid #ffffff;
+}
+li:hover{
+    background-color: #ffffff68;
 }

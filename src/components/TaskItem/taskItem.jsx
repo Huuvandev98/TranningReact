@@ -34,14 +34,14 @@ function Taskitem(props) {
     }
   }
   return (
-    <div class="col-3">
-      <div className="task-item">
+    <div className='col-3'>
+      <div className='task-item'>
         <div>
-          <p class="strong">Title: {taskName}</p>
+          <p className="strong">Title: {taskName}</p>
           <p>Creator: {taskAuthor}</p>
-          <p class="strong" style={{ color: statusColor }}>Status: {status}</p>
+          <p className="strong" style={{ color: statusColor }}>Status: {status}</p>
           <div className="task-description">
-            <p class="strong" >Description:</p>
+            <p className="strong" >Description:</p>
             <p>{taskDescription}</p>
           </div>
         </div>
