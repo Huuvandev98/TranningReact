@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-slideBar.propTypes = {
+SlideBar.propTypes = {
     
 };
 
-function slideBar(props) {
+function SlideBar(props) {
     return (
         <div>
             
@@ -13,4 +13,4 @@ function slideBar(props) {
     );
 }
 
-export default slideBar;
+export default SlideBar;

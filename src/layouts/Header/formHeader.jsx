@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-formHeader.propTypes = {
+FormHeader.propTypes = {
     
 };
 
-function formHeader(props) {
+function FormHeader(props) {
     return (
         <div>
             
@@ -13,4 +13,4 @@ function formHeader(props) {
     );
 }
 
-export default formHeader;
+export default FormHeader;
