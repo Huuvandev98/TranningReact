@@ -1,29 +1,26 @@
+import { Route, Routes } from "react-router-dom";
+import Header from "./layout/Header";
+import Home from "./layout/Home";
+import Sidebar from "./layout/Sidebar";
+import "./App.css";
+import TaskForm from "./components/TaskForm";
 
-import './App.css';
-import TaskList from './components/TaskList/TaskList';
-import NavBar from './components/NavBar/NavBar';
-import SlideBar from './components/SlideBar/SlideBar';
 function App() {
   return (
-    <div className='main'>
-    <div className='nav'>
-      <div className='container'> 
-        <NavBar />
-      </div>
-    </div>
-      <div className='container'>
-        <div className='row'>
-          <div className='col-2'>
-          <SlideBar/>
-          </div>
-          <div className='col-10'>
-            <TaskList />
-          </div>
-        </div>
+    <div className="App">
+      <Header />
+
+      <div className="container">
+        <Sidebar />
+        <main className="main-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/add" element={<TaskForm />} />
+          </Routes>
+        </main>
       </div>
     </div>
   );
 }
 
 export default App;
-
